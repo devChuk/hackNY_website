@@ -10,10 +10,10 @@ Instead of using some devironment like VVV, I'm just using my own setup so just 
 
 `http://127.0.1.1/`: domain name of server
 
-`make` rsync's the theme in the git repo to the server dir
+`make`: rsync's the theme in the git repo to the server dir
 
-`make zip` turns the theme into a .zip format
+`make zip`: turns the theme into a .zip format
 
-`testenv/` just some folder where I test out animations & designs
+`testenv/`: just some folder where I test out animations & designs
 
-`hackny/` the actual source folder of the theme
+`hackny/`: the actual source folder of the theme
