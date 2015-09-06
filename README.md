@@ -15,3 +15,5 @@ Instead of using some devironment like VVV, I'm just using my own setup so just 
 `make zip` turns the theme into a .zip format
 
 `testenv/` just some folder where I test out animations & designs
+
+`hackny/` the actual source folder of the theme
