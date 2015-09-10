@@ -1,5 +1,5 @@
 # hackNY_website
-A Wordpress theme built just for the [hackNY website](hackny.org).
+A Wordpress theme built just for the [hackNY website](http://hackny.org).
 
 I'll add the hackny theme to the official hackNY group repo once I'm done with it.
 Instead of using some devironment like VVV, I'm just using my own setup so just excuse these notes for myself:
