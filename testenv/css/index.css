@@ -63,9 +63,9 @@ html {color: #FFFFFF; background-color: #E62423;}
 
 #splash {
 	width: 100%; /* For those good old-fashioned browsers with no vw or calc() support */
-    width: -webkit-calc(100vw - [your horizontal margin, if any]);
-    width: -moz-calc(100vw - [your horizontal margin, if any]);
-    width: calc(100vw - [your horizontal margin, if any]);
+    width: -webkit-calc(100vw);
+    width: -moz-calc(100vw);
+    width: calc(100vw);
     max-width: 100%;
 	height: 100vh;
 }
@@ -75,7 +75,7 @@ html {color: #FFFFFF; background-color: #E62423;}
 .head-text {
 	top: 30%;
 	position: absolute;
-	width: 100%;
+	width: 99%;
 	text-align: center;
 }
 
