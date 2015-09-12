@@ -51,7 +51,7 @@ a:hover, a:active { outline: none; }
 /* GENERAL STYLES
 ----------------------------------------------- */
 
-/*html {overflow-x: hidden; font-family: 'Lato'; color: #ECF0F1; background-color: #2C3E50;}*/
+html {color: #FFFFFF; background-color: #E62423;}
 
 /* ----- SELECTION COLORS ----- */
 
@@ -59,7 +59,57 @@ a:hover, a:active { outline: none; }
 /* PAGE STRUCTURE
 ----------------------------------------------- */
 
-/* Splash Screen*/
+/* Splash Screen */
+
+#splash {
+	width: 100%; /* For those good old-fashioned browsers with no vw or calc() support */
+    width: -webkit-calc(100vw - [your horizontal margin, if any]);
+    width: -moz-calc(100vw - [your horizontal margin, if any]);
+    width: calc(100vw - [your horizontal margin, if any]);
+    max-width: 100%;
+	height: 100vh;
+}
+
+.head-text {
+	top: 30%;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	height: 179px;
+}
+
+/* Logo Animation */
+
+.front {
+	z-index: 1;
+}
+
+.back {
+	z-index: 0;
+}
+
+#N, #Y {
+	width: 70px;
+	vertical-align: middle;
+	padding-right: 60px;
+	padding-left: 60px;
+	visibility: hidden;
+}
+
+#hack {
+	overflow: hidden;	
+	width: 0px;
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
 
 
 /* WIDE DESKTOP LAYOUT 
@@ -71,17 +121,17 @@ a:hover, a:active { outline: none; }
 /* TABLET LAYOUT 
 ----------------------------------------------- */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-	
+	html {background-color: blue;}
 } /* CLOSE TABLET LAYOUT */
 
 /* WIDE MOBILE LAYOUT (LANDSCAPE/480PX) 
 ----------------------------------------------- */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-	
+	html {background-color: yellow;}
 } /* CLOSE WIDE MOBILE LAYOUT
 
 /* MOBILE LAYOUT (PORTRAIT/320PX) 
 ----------------------------------------------- */
 @media only screen and (max-width: 480px) {
-
+	html {background-color: orange;}
 } /* CLOSE MOBILE LAYOUT */
