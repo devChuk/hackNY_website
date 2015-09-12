@@ -14,6 +14,7 @@ var layout;
 
 function slide() {
 	$( "#hack" ).animate({width: logoUnits.hWidth + "px", "padding-right": logoUnits.hPR});
+	$( ".head-text h1" ).fadeIn();
 }
 
 function screenCheck() {
@@ -55,7 +56,7 @@ $( window ).resize(function() {
 	var pastLayout = layout;
 	screenCheck();
 	if (pastLayout != layout) {
-			$( "#N, #Y" ).animate({width: logoUnits.nyEnd + "px"}, 200);
+			$( "#N, #Y" ).css({width: logoUnits.nyEnd + "px"});
 			$( "#hack" ).css({width: logoUnits.hWidth + "px", "padding-right": logoUnits.hPR})
 	}
 

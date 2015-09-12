@@ -39,19 +39,16 @@ a:hover, a:active { outline: none; }
 /* FONT IMPORTS
 ----------------------------------------------- */
 
-/* latin-ext */
+/* source sans pro */
 /*@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'), url(http://fonts.gstatic.com/s/lato/v11/UyBMtLsHKBKXelqf4x7VRQ.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+	font-family: 'Source Sans Pro', sans-serif;
 }*/
+
 
 /* GENERAL STYLES
 ----------------------------------------------- */
 
-html {color: #FFFFFF; background-color: #E62423;}
+html {color: #FFFFFF; background-color: #E62423; font-family: 'Source Sans Pro', sans-serif;}
 body {margin: 0}
 
 /* ----- SELECTION COLORS ----- */
@@ -63,11 +60,8 @@ body {margin: 0}
 /* Splash Screen */
 
 #splash {
-	/*width: 100%;  For those good old-fashioned browsers with no vw or calc() support */
 	height: 100vh;
 }
-
-/* Logo Animation */
 
 .head-text {
 	top: 30%;
@@ -93,6 +87,12 @@ body {margin: 0}
     height: 100%;
     display: inline-block;
     vertical-align: middle;
+}
+
+.head-text h1 {
+	font-size: 3vmin;
+	font-weight: 300;
+	display: none;
 }
 
 
