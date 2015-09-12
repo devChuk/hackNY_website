@@ -52,6 +52,7 @@ a:hover, a:active { outline: none; }
 ----------------------------------------------- */
 
 html {color: #FFFFFF; background-color: #E62423;}
+body {margin: 0}
 
 /* ----- SELECTION COLORS ----- */
 
@@ -62,11 +63,7 @@ html {color: #FFFFFF; background-color: #E62423;}
 /* Splash Screen */
 
 #splash {
-	width: 100%; /* For those good old-fashioned browsers with no vw or calc() support */
-    width: -webkit-calc(100vw);
-    width: -moz-calc(100vw);
-    width: calc(100vw);
-    max-width: 100%;
+	/*width: 100%;  For those good old-fashioned browsers with no vw or calc() support */
 	height: 100vh;
 }
 
@@ -75,7 +72,7 @@ html {color: #FFFFFF; background-color: #E62423;}
 .head-text {
 	top: 30%;
 	position: absolute;
-	width: 99%;
+	width: 100%;
 	text-align: center;
 }
 
