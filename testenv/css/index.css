@@ -1,4 +1,4 @@
-/* RESET STYLES
+ RESET STYLES
 ----------------------------------------------- */
 
 html, body, div, span, object, iframe,
@@ -70,43 +70,31 @@ html {color: #FFFFFF; background-color: #E62423;}
 	height: 100vh;
 }
 
+/* Logo Animation */
+
 .head-text {
 	top: 30%;
 	position: absolute;
 	width: 100%;
 	text-align: center;
-	height: 179px;
-}
-
-/* Logo Animation */
-
-.front {
-	z-index: 1;
-}
-
-.back {
-	z-index: 0;
 }
 
 #N, #Y {
-	width: 70px;
 	vertical-align: middle;
-	padding-right: 60px;
-	padding-left: 60px;
 	visibility: hidden;
 }
 
 #hack {
-	overflow: hidden;	
 	width: 0px;
 	height: 100%;
 	display: inline-block;
 	vertical-align: middle;
+	overflow: hidden;
 }
 
 .helper {
-    display: inline-block;
     height: 100%;
+    display: inline-block;
     vertical-align: middle;
 }
 
@@ -115,23 +103,50 @@ html {color: #FFFFFF; background-color: #E62423;}
 /* WIDE DESKTOP LAYOUT 
 ----------------------------------------------- */
 @media only screen and (min-width: 992px) {
-	
+	.head-text {height: 178px;}
+	#N, #Y {
+		width: 70px;
+		padding-right: 60px;
+		padding-left: 60px;
+	}
+
 } /* CLOSE WIDE LAYOUT */
 
 /* TABLET LAYOUT 
 ----------------------------------------------- */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-	html {background-color: blue;}
+	/*html {background-color: blue;}*/
+	.head-text {height: 136px;}
+	#N, #Y {
+		width: 53px;
+		padding-right: 46px;
+		padding-left: 46px;
+	}
+	#hack img {width: 390px};
 } /* CLOSE TABLET LAYOUT */
 
 /* WIDE MOBILE LAYOUT (LANDSCAPE/480PX) 
 ----------------------------------------------- */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-	html {background-color: yellow;}
+	/*html {background-color: yellow;}*/
+	.head-text {height: 87px;}
+	#N, #Y {
+		width: 34px;
+		padding-right: 29px;
+		padding-left: 29px;
+	}
+	#hack img {width: 251px};
 } /* CLOSE WIDE MOBILE LAYOUT
 
 /* MOBILE LAYOUT (PORTRAIT/320PX) 
 ----------------------------------------------- */
-@media only screen and (max-width: 480px) {
-	html {background-color: orange;}
-} /* CLOSE MOBILE LAYOUT */
+@media only screen and (max-width: 479px) {
+	/*html {background-color: orange;}*/
+	.head-text {height: 68px;}
+	#N, #Y {
+		width: 27px;
+		padding-right: 23px;
+		padding-left: 23px;
+	}
+	#hack img {width: 195px};
+} /* CLOSE MOBILE LAYOUT 
