@@ -57,10 +57,13 @@ body {margin: 0}
 /* PAGE STRUCTURE
 ----------------------------------------------- */
 
+/* Header */
+header {min-height: 50px; height: 6vh; background-color: white;}
+
 /* Splash Screen */
 
 #splash {
-	height: 100vh;
+	height: 94vh;
 }
 
 .head-text {
