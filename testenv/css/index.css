@@ -99,7 +99,6 @@ header {
 }
 
 .head-text h1 {
-	font-size: 3vmin;
 	font-weight: 300;
 	display: none;
 }
@@ -187,10 +186,14 @@ header .container a h4 {
 @media only screen and (max-width: 479px) {
 	/*html {background-color: orange;}*/
 	.head-text {height: 68px;}
+	.head-text h1 {font-size: 20px;}
 	#N, #Y {
 		width: 27px;
 		padding-right: 23px;
 		padding-left: 23px;
 	}
 	#hack img {width: 195px};
+	header .container a {
+		display: none;
+	}
 } /* CLOSE MOBILE LAYOUT 
