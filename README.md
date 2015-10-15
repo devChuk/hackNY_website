@@ -17,3 +17,9 @@ Instead of using some developer environment like VVV, I'm just using my own setu
 `testenv/`: just some folder where I test out animations & designs
 
 `hackny/`: the actual source folder of the theme
+
+
+
+Design inspirations...
+
+http://acme-experience.com/
